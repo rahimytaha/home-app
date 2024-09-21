@@ -25,12 +25,16 @@ const HomeDetail = ({ id }) => {
     metrage:"3,200",
     unit:"metere",
     infrastructure:"3,000",
-    toilet:3
+    toilet:3,
+    star:5.0
   };
   return (
     <div className="p-5 ">
-      <div className="flex justify-between  h-96 gap-24 ">
-      <Box data={data} />
+      <div className="flex justify-between   gap-24 ">
+        <div className="w-6/12 ">
+                  <Box data={data} />
+        </div>
+
         <Pictures data={data.pictures} />
       </div>
     </div>

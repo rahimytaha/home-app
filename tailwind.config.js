@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        dark:"rgba(13, 12, 12 ,1)",
+        dark:"rgba(30, 27, 27, 0.92)",
         lightDark:"#242222",
         textColor:"rgba(136, 124, 124, 0.98)",
         textYellow:"rgba(188, 232, 34, 0.98)",
@@ -19,6 +19,7 @@ module.exports = {
       },
       boxShadow: {
         'innerShadow': 'inset 0 0px 10px 1px rgba(94, 158, 162, 0.24)',
+        'innerShadow2': 'inset 0 0px 10px 1px rgba(30, 27, 27, 0.92)',
         'yellowShadow': '0 0px 10px 1px rgba(0, 232, 34, 0.20)',
       }
     },
