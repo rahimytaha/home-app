@@ -4,7 +4,7 @@ import React from 'react'
 
 const ButtonItem = ({id}) => {
   return (
-    <Link href={`/Homes/${id}`} className=" bg-textYellow text-dark rounded-md  p-3 px-5 shadow-yellowShadow  ">
+    <Link href={`/homes/${id}`} className=" bg-textYellow text-dark rounded-md  p-3 px-5 shadow-yellowShadow  ">
       مشاهده این خانه 
     </Link>
   )
