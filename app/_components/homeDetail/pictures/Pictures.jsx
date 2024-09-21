@@ -24,7 +24,6 @@ const Pictures = ({ data }) => {
       />
       <div className="absolute h-5 bottom-5 flex gap-2 justify-center  w-full  z-10 ">
         {data.map((el,index)=><div onClick={e=>setNumber(index)} className={`w-5 rounded-full cursor-pointer duration-150   ${number==index?" bg-blue ":"bg-blue/50  "}`}>
-
         </div>)}
       </div>
 

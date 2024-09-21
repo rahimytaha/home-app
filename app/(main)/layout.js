@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body
       
-        className={`bg-dark text-textColor font-bold  antialiased`}
+        className={`bg-dark text-textColor text-lg  font-bold  antialiased`}
       >
         <div dir="rtl">
         <Header/>
