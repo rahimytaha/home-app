@@ -1,6 +1,6 @@
 // import localFont from "next/font/local";
 import Header from "../_components/header/Header";
-import "./globals.css";
+import "../globals.css";
 
 
 
